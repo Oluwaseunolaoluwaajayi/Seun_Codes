@@ -8,7 +8,7 @@ const projects = [
     title: "Book CRUD API",
     desc: "Production-ready RESTful API built with FastAPI. Features full CRUD operations, Pydantic validation, automatic OpenAPI/Swagger docs, and proper HTTP error handling.",
     tags: ["FastAPI", "Python", "Pydantic", "REST API", "Swagger UI"],
-    live: "https://book-crud-api.onrender.com/docs", // ← Update this when Render finishes
+    live: "https://book-crud-api-1lqb.onrender.com", // ← Update this when Render finishes
     github: "https://github.com/Oluwaseunolaoluwaajayi/book-crud-api",
   },
   {
