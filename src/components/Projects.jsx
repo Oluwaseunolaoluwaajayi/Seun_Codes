@@ -5,39 +5,39 @@ import "./Projects.css";
 
 const projects = [
   {
+    title: "Book CRUD API",
+    desc: "Production-ready RESTful API built with FastAPI. Features full CRUD operations, Pydantic validation, automatic OpenAPI/Swagger docs, and proper HTTP error handling.",
+    tags: ["FastAPI", "Python", "Pydantic", "REST API", "Swagger UI"],
+    live: "https://book-crud-api.onrender.com/docs", // ← Update this when Render finishes
+    github: "https://github.com/Oluwaseunolaoluwaajayi/book-crud-api",
+  },
+  {
     title: "Movie Recommendation App",
     desc: "Full-stack movie discovery platform with user authentication, personalized recommendations, watchlists, and real-time search powered by TMDB API.",
-    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "TMDB API"],
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     live: "https://movie-app-seun.netlify.app",
-    github: "https://github.com/yourusername/movie-recommendation-app",
+    github: "https://github.com/Oluwaseunolaoluwaajayi/movie-recommendation-app",
   },
   {
     title: "Gas Monitoring System (IoT)",
-    desc: "Real-time gas detection system using ESP32 sensors, FastAPI backend, WebSocket streaming, and a responsive React dashboard with alerts.",
+    desc: "Real-time gas detection dashboard using ESP32 sensors, FastAPI backend, WebSocket streaming, and live charts with alerts.",
     tags: ["FastAPI", "Python", "React", "WebSocket", "MQTT", "Chart.js"],
     live: "https://gas-monitor-seun.vercel.app",
-    github: "https://github.com/yourusername/gas-monitoring-system",
+    github: "https://github.com/Oluwaseunolaoluwaajayi/gas-monitoring-system",
   },
   {
     title: "TaskMaster – Productivity App",
-    desc: "Feature-rich task manager with due dates, categories, recurring tasks, Pomodoro timer, analytics dashboard, and dark mode.",
+    desc: "Advanced task manager with recurring tasks, Pomodoro timer, analytics, categories, and dark mode support.",
     tags: ["React", "Node.js", "PostgreSQL", "Prisma", "Tailwind"],
     live: "https://taskmaster-seun.netlify.app",
-    github: "https://github.com/yourusername/taskmaster",
-  },
-  {
-    title: "Bookmark Organizer Extension",
-    desc: "Chrome & Firefox extension to save, tag, search, and organize bookmarks efficiently. Syncs across devices with cloud backup.",
-    tags: ["JavaScript", "Chrome API", "Firebase", "Manifest V3"],
-    live: "https://chrome.google.com/webstore/...",
-    github: "https://github.com/yourusername/bookmark-organizer",
+    github: "https://github.com/Oluwaseunolaoluwaajayi/taskmaster-app",
   },
 ];
 
 export default function Projects() {
   return (
     <section className="projects" id="projects">
-      <div className="container-projects">
+      <div className="container">
         <h2 className="section-title">Featured Projects</h2>
 
         <div className="projects-grid">
@@ -46,11 +46,21 @@ export default function Projects() {
               <div className="project-header">
                 <h3>{project.title}</h3>
                 <div className="project-links">
-                  <a href={project.live} target="_blank" rel="noopener noreferrer" aria-label="Live demo">
-                    <FiExternalLink size={20} />
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Live demo"
+                  >
+                    <FiExternalLink size={22} />
                   </a>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub repo">
-                    <FiGithub size={20} />
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub repository"
+                  >
+                    <FiGithub size={22} />
                   </a>
                 </div>
               </div>
