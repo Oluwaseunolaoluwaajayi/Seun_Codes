@@ -6,7 +6,7 @@ import "./Hero.css";
 export default function Hero() {
   return (
     <section className="hero" id="home">
-      <div className="genLayout">
+      <div className="hero-container">
         <div className="hero-content">
           <h1>
             Hi, I'm <span>Oluwaseun Olaoluwa Ajayi</span>
@@ -14,8 +14,8 @@ export default function Hero() {
           <h2>Backend Engineer • API Specialist</h2>
           <p>
             I design and build fast, secure, and scalable backend systems using{" "}
-            <strong>Python (FastAPI)</strong>, <strong>Node.js (Express)</strong>, 
-            PostgreSQL, and MongoDB. Passionate about clean code, RESTful APIs, 
+            <strong>Python (FastAPI)</strong>, <strong>Node.js (Express)</strong>,
+            PostgreSQL, and MongoDB. Passionate about clean code, RESTful APIs,
             and authentication that just works.
           </p>
 
