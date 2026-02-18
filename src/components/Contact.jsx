@@ -51,7 +51,7 @@ export default function Contact() {
                 <FiLinkedin size={26} />
               </a>
               <a
-                href="https://x.com/ojogbonn"
+                href="https://x.com/Ajayi_tweets"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"

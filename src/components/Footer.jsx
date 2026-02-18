@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="footer-social">
           <a href="https://github.com/Oluwaseunolaoluwaajayi" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/ajayi-oluwaseun-olaoluwa-98436b11a/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a href="https://x.com/ojogbonn" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="https://x.com/Ajayi_tweets" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           <a href="mailto:ajayiolaoluwa88@yahoo.com"><FaEnvelope /></a>
         </div>
 

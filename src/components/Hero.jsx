@@ -11,7 +11,7 @@ export default function Hero() {
           <h1>
             Hi, I'm <span>Oluwaseun Olaoluwa Ajayi</span>
           </h1>
-          <h2>Backend Engineer • API Specialist</h2>
+          <h2>Backend Engineer • API Specialist • Project Manager</h2>
           <p>
             I design and build fast, secure, and scalable backend systems using{" "}
             <strong>Python (FastAPI)</strong>, <strong>Node.js (Express)</strong>,
