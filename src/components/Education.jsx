@@ -9,6 +9,15 @@ export default function Education() {
         <h2 className="section-title">Educational Background</h2>
 
         <div className="education-list">
+          {/* TS Academy */}
+          <div className="education-item">
+            <h3>Certification in Product Management</h3>
+            <h4>TS Academy</h4>
+            <span className="date">2026 – Present</span>
+            <p>
+              Currently enrolled at TS Academy studying Product Management, gaining hands-on experience in building, launching, and scaling digital products. The program covers the full product lifecycle — from ideation and market research to design collaboration, agile execution, and growth strategy.
+            </p>
+          </div>
           {/* AltSchool Africa */}
           <div className="education-item">
             <h3>Diploma in Backend Engineering (Python)</h3>
